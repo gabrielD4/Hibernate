@@ -4,6 +4,7 @@ import com.example.ex6hibernate.classes.entities.Class;
 import com.example.ex6hibernate.students.entities.Student;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class Enrollments {
 
     @Id
