@@ -18,9 +18,9 @@ public class Enrollments {
     @GeneratedValue
     private int id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Student student;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Class aClass;
 }
